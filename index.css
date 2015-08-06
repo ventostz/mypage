@@ -38,7 +38,7 @@
 .head {
 	float: left;
 	height: 100px;
-	background-color: rgba(192,192,192,0.7);
+	background-color: black; 
 	text-align: center;
 	font-size: 3em;
 	vertical-align: middle;
@@ -49,13 +49,17 @@
 	line-height: 100px;
 	vertical-align: middle;
 	text-decoration: none;
-	color: black;
+	color: rgba(0,255,0,0.4);
+}
+
+.head a:hover {
+	color: rgba(0,255,0,0.6);
 }
 
 .head2 {
 	float: left;
 	height: 100px;
-	background-color: gray;
+	background-color: rgba(0,102,0,1);
 	border-radius: 0 0 10px 0;
 }
 
@@ -66,13 +70,16 @@
 
 .head2 ul li{
 	display: inline;
-	background-color: gray;
 	font-size: 2em;
 	border-radius: 5px;
 	margin: 10px;	
 }
 
 .head2 ul li a{
-	color: rgba(0,0,0,0.3);
+	color: rgba(0,0,0,0.7);
 	text-decoration: none;
+}
+.head2 ul li a:hover {
+	color: rgba(0,0,0,1);
+	font-weight: 700;
 }
