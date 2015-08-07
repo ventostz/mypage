@@ -27,12 +27,23 @@
     [class*="col-"] {
         width: 100%;
     }
-	.head {
-		border-radius: none;
-	}
-	.head2 {
-		border-radius: 0 0 10px 10px;
-	}
+}
+
+@media only screen and (max-width: 1150px){
+	[class*="col-"] {
+        width: 100%;
+    }
+}
+
+body {
+	background-image: url("6.jpg");
+	background-size: cover;
+	o pacity: 0.4;
+}
+
+.active {
+	font-weight: 700;
+	color: rgba(0,0,0,1);
 }
 
 .head {
@@ -43,24 +54,26 @@
 	font-size: 3em;
 	vertical-align: middle;
 	border-radius: 0 0 0 10px;
+	min-width: 575px;
 }
 .head a {
 	display: block;
 	line-height: 100px;
 	vertical-align: middle;
 	text-decoration: none;
-	color: rgba(0,255,0,0.4);
+	color: rgba(0,255,255,0.6);  /*(0,255,0,0.4)*/
 }
 
 .head a:hover {
-	color: rgba(0,255,0,0.6);
+	color: rgba(0,255,255,0.5); 
 }
 
 .head2 {
 	float: left;
 	height: 100px;
-	background-color: rgba(0,102,0,0.5);
+	background-color: rgba(0,255,255,0.6); /*rgba(0,102,0,0.5);*/
 	border-radius: 0 0 10px 0;
+	min-width: 530px;
 }
 
 .head2 ul {
@@ -79,7 +92,21 @@
 	color: rgba(0,0,0,0.7);
 	text-decoration: none;
 }
+
 .head2 ul li a:hover {
 	color: rgba(0,0,0,1);
 	font-weight: 700;
+}
+
+.content {
+	position: relative;
+	padding: 50px; 
+}
+
+.inner {
+	width: 60%;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 2em;
+	color:  rgba(255,255,255,0.8);
 }
