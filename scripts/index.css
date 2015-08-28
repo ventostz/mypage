@@ -40,12 +40,6 @@ body {
 	background-size: cover;
 }
 
-.mai nabout {
-	background-image: url("../pictures/aboutbackgr.jpg");
-	background-size: cover;
-	min-height: 800px;
-}
-
 .active {
 	font-weight: 700;
 	color: rgba(0,0,0,1);
@@ -125,7 +119,8 @@ body {
 .slide-container {
 	position: relative;
 	height: 400px;	
-	border: 2px solid blue;
+	border: 1px solid rgb(20,150,200);
+	border-radius: 10px;
 	color: white;
 	width: 1000px;
 	margin: 0 auto;
@@ -180,12 +175,19 @@ body {
 }
 
 .footer {
-	margin-top: 200px;
+	height: 140px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.footer-links {
 	width: auto;
 	height: 100px;
 	padding: 10px 0;
-	bord er: 1px solid green;
 	background-color: rgba(37,175,245,0.3);  /*rgba(217, 242, 250, 0.8);*/
+	border-radius: 10px;
 }
 
 .footer img {
@@ -198,8 +200,4 @@ body {
 
 .f-left {
 	float:left;
-}
-
-.copyright {
-	text-align: center;
 }
