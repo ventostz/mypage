@@ -116,6 +116,10 @@ body {
 	padding: 120px 100px 0 100px;
 }
 
+.content-small {
+	padding: 50px 0;
+}
+
 .slide-container {
 	position: relative;
 	height: 400px;	
@@ -180,6 +184,11 @@ body {
 	left: 0;
 	bottom: 0;
 	right: 0;
+}
+
+.footer-small {
+	position: relative;
+	margin-top: 10px;
 }
 
 .footer-links {
